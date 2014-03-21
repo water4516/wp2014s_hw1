@@ -1,0 +1,128 @@
+body{
+  background-color: #FFFF99;
+  width:1024px;
+  margin:auto;
+}
+
+header{
+  background-color:#ffe401;
+}
+
+header li{
+  margin-top:2em;
+  float:right;
+  color:#CC0000;
+  padding-right:0.5em; 
+  list-style-type:none;
+  display: inline-block;
+  margin-right:0.5em;
+  border-right:solid;
+  border-width:1px;
+}
+
+header li:first-child{
+  border-width:0px;
+}
+
+.pic{
+  float:left;
+}
+
+header::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+
+.left{
+  float: left;
+  width: 320px;
+  height:987px;
+  margin-bottom:1em;
+}
+
+.right{
+  margin-top:1em;
+  background:#fff7b2;
+  height:987px;
+  float: right;
+  width:704px;
+}
+
+
+footer{
+  font-size:8px;
+  background-color:#ffe401;
+  text-align: center;
+}
+
+h1{
+  padding-left:1em;
+  color:#660000;
+  
+}
+
+
+.menu{
+  padding-right:1px;
+  z-index: 1; 
+  background:white;
+  margin-right:1em;
+}
+
+.menu>li{
+  border-bottom-style:dotted;
+  text-align: center;
+  border-color:#444; 
+  border-width:4px;
+  list-style-type:none;
+  position: relative;
+  border-right: 0;
+  padding: .5em 1em;
+  margin-right:1em;
+}
+
+.submenu{
+  z-index: 2; 
+  position: absolute;
+  display: none;
+  left: 220px;
+  width: 100%;
+  text-align: center;
+  background: #91FF92;
+}
+
+.menu>li:hover .submenu{
+  display: block;
+}
+.submenu li{
+  list-style-type:none;
+  padding: .5em;
+  color: black;
+  text-align: center;
+}
+.submenu li:hover{
+  color: white;
+}
+
+
+.tab{
+  border-collapse:collapse;
+  margin-left:10px;
+  width:90%;
+  height:700px;
+  text-align: center;
+}
+
+.tab th{
+  background-color:#DC7100;
+}
+
+.tab td{
+  border-bottom:3px dotted #FF8F19;
+}
+
+.to-top{
+  float:right;
+}
