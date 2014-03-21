@@ -38,14 +38,14 @@ header::after{
 .left{
   float: left;
   width: 320px;
-  height:987px;
+  height:995px;
   margin-bottom:1em;
 }
 
 .right{
   margin-top:1em;
   background:#fff7b2;
-  height:987px;
+  height:995px;
   float: right;
   width:704px;
 }
@@ -65,6 +65,7 @@ h1{
 
 
 .menu{
+  padding-top:0.5em;
   padding-right:1px;
   z-index: 1; 
   background:white;
